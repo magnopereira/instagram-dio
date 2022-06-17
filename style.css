@@ -136,6 +136,7 @@ body {
     }
 }
 
+
 @media (max-width: 650px) {
     body {
         background-color: #ffffff;
@@ -155,5 +156,9 @@ body {
     
     .group {
         border: 1px solid transparent;
+    }
+    .download{
+        flex-direction: column;
+        padding-bottom:100px ;
     }
 }
